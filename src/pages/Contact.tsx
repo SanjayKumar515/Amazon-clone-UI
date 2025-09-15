@@ -54,6 +54,7 @@ const Contact = () => {
             allowFullScreen={true}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
+            title="HITEC City Hyderabad Map"
           ></iframe>
         </div>
         <div className="block 1100px:flex justify-evenly my-5 bg-white dark:bg-[#222e35] p-5 shadow-lg">

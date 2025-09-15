@@ -57,7 +57,7 @@ const LongCard: React.FC<{ data: IProductState, isHidden?: any, wishlist?: any, 
             }
         }
         return (
-            <>
+            
                 <div className={`  ${isHidden === true ? "hidden sm:block" : "false"}`}>
                     <div className="group gap-3 bg-white dark:bg-[#f5f5f5] h-[250px] flex px-2 rounded-lg border text-gray-700 shadow transition hover:shadow-lg">
                         <Link to={`/product/${data.id}`} className="w-[25%] relative flex justify-center items-center">
@@ -120,7 +120,6 @@ const LongCard: React.FC<{ data: IProductState, isHidden?: any, wishlist?: any, 
 
 
                 </div>
-            </>
         )
     }
 

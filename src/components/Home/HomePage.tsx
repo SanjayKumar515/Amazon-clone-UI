@@ -13,22 +13,22 @@ import PopularProduct from "./PopularProduct"
 import Offers from "./Offers.tsx"
 
 const HomePage = () => {
-  useLayoutEffect(() => {
-    window.scrollTo(0, 0);
-  }, [Link]);
+  useLayoutEffect( () => {
+    window.scrollTo( 0, 0 );
+  }, [ Link ] );
   return (
-    <>
-      <div className="">
-        <Carousel />
-        <Home />
-        <FeatureCollection />
-        <Offers />
-        <TopProducts />
-        <SpecialCart />
-        <PopularProduct />
-        <BrandsAndBlogs />
-      </div>
-    </>
+
+    <div className=" ">
+      <Carousel />
+      <Home />
+      <FeatureCollection />
+      <Offers />
+      <TopProducts />
+      <SpecialCart />
+      <PopularProduct />
+      <BrandsAndBlogs />
+    </div>
+
   )
 }
 
